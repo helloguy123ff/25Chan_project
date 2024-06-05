@@ -48,3 +48,8 @@ h1 {
 .link:hover {
     text-decoration: underline;
 }
+
+input[type="file"] {
+    margin-top: 10px;
+}
+
