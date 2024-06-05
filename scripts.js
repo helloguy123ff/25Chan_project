@@ -33,3 +33,4 @@ document.addEventListener('DOMContentLoaded', function() {
         comentariosDiv.innerText = 'Nenhum comentário encontrado.';
     }
 });
+
