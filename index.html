@@ -4,31 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>25Chan</title>
-   <link href= "https://helloguy123ff.github.io/25Chan_project/style.css" rel = "stylesheet"/>
-<script src= "https://helloguy123ff.github.io/25Chan_project/scripts.js"></script>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div>
+    <div class="container">
         <h1>25Chan</h1>
-        <p>25Chan.com.br</p>
-        <br><br>
-        <div class="container">
-            <h2>Postagem</h2>
-            <br></br>
-            <form id="postForm">
-                <label for="conteudo">Conteúdo:</label>
-                            <br></br>
-                <textarea id="conteudo" name="conteudo" required></textarea>
-                            <br></br>
-                <button type="submit">Publicar</button>
-            </form>
-            <br>
-            <a href="ver_comentarios.html" style="color: white;">Ver Comentários</a>
-        </div>
+        <p>Bem-vindo ao 25Chan!</p>
+        <form id="postForm">
+            <label for="conteudo">Conteúdo:</label>
+            <textarea id="conteudo" name="conteudo" required></textarea>
+            <button type="submit">Publicar</button>
+        </form>
         <div id="response"></div>
+        <a href="ver_comentarios.html" class="link">Ver Comentários</a>
     </div>
 
- 
+    <script src="scripts.js"></script>
 </body>
 </html>
 
