@@ -12,3 +12,4 @@ chmod +x setup_permissions.sh
 ./setup_permissions.sh
 php -S localhost : 8000
 python -m http.server 8000
+php -v
