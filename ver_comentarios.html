@@ -5,8 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>25Chan - Comentários</title>
     <link href="style.css" rel="stylesheet">
-</head>
-<body>
+    <div class="container">
+     
+         <div class="container">
+    
+        <form id="postForm">
+            <label for="conteudo">Conteúdo:</label>
+            <textarea id="conteudo" name="conteudo" required></textarea>
+            <button type="submit">Publicar</button>
+        </form>
+        <div id="response"></div>
+        <a href="ver_comentarios.html" class="link">Ver Comentários</a>
+    </div>
+      
     <div class="container">
         <h1 id="categoriaTitle">Comentários</h1>
         <a href="index.html" class="link">Voltar para Categorias</a>
