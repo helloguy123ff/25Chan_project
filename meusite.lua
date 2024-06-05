@@ -1,4 +1,4 @@
-/meu-site
+/25chan
 |-- index.html
 |-- ver_comentarios.html
 |-- style.css
