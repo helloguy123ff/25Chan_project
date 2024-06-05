@@ -1,9 +1,14 @@
+#!/bin/bash
+
+# Cria o arquivo postagens.txt se não existir
 touch postagens.txt
+
+# Define permissões de leitura e escrita para todos os usuários
 chmod 666 postagens.txt
-curl -X POST http://seusite.com/processar_postagem.php -H "Content-Type: application/json" -d '{"conteudo":"Teste de mensagem"}'
+
+# Confirmação
+echo "Permissões configuradas para postagens.txt"
 chmod +x setup_permissions.sh
 ./setup_permissions.sh
-ls -l postagens.txt
--rw-rw-rw- 1 usuario grupo tamanho data postagens.txt
-php -S localhost: 8000
+php -S localhost : 8000
 python -m http.server 8000
