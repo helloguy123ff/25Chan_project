@@ -12,38 +12,34 @@ body {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    text-align: center;
 }
 
 h1 {
     text-align: center;
 }
 
-label, textarea, button {
-    display: block;
-    width: 100%;
-    margin: 10px 0;
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
-textarea {
-    height: 100px;
-}
-
-button {
+.categoria-link {
+    padding: 10px 20px;
     background-color: #007bff;
     color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+    text-decoration: none;
     border-radius: 5px;
 }
 
-button:hover {
+.categoria-link:hover {
     background-color: #0056b3;
 }
 
 .link {
     display: block;
-    margin: 20px 0;
+    margin-top: 20px;
     text-align: center;
     color: #007bff;
     text-decoration: none;
@@ -52,11 +48,3 @@ button:hover {
 .link:hover {
     text-decoration: underline;
 }
-
-.comentario {
-    background-color: #e9ecef;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-}
-
